@@ -5,15 +5,26 @@ Get real-time exchange rates using the ExchangeRate API and convert between mult
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge&logo=github)](https://liamlon.github.io/currency-converter/)
 
+---
+
+## 🖼️ Preview
+
+![Currency Converter Screenshot](https://raw.githubusercontent.com/Liamlon/currency-converter/master/preview.png)
+
+---
+
 ## 🔧 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla)
 - [ExchangeRate API](https://www.exchangerate-api.com/)
+
+---
 
 ## ✨ Features
 
-- Responsive design
-- Real-time currency conversion
-- Clean and modern UI
+- Real-time exchange rate conversion
+- Responsive and modern design
+- Supports multiple currencies
+- Clean and minimal user interface
