@@ -1,0 +1,100 @@
+/* רקע כללי */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b388eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* הקופסה הלבנה */
+  .converter {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* תמונה (אם תוסיף) */
+  .converter img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* כותרת */
+  .converter h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+  }
+  
+  /* תוויות */
+  label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: 500;
+  }
+  
+  /* שדות קלט */
+  input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #999;
+    background: none;
+    outline: none;
+    margin-bottom: 15px;
+  }
+  
+  /* תפריטים */
+  select {
+    background-color: #c3a7f4;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  /* כפתור */
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #a267e7;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    letter-spacing: 1px;
+  }
+  
+  button:hover {
+    background-color: #9256e0;
+  }
+  
+  /* תוצאה */
+  #result {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e3d0ff;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  
